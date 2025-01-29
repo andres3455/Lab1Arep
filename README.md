@@ -19,5 +19,27 @@ Adicional se incluyo el servicio REST que nospermite saber el clima de una ciuda
 
 1.Debemos clonar el repositorio
 ```
-
+https://github.com/andres3455/Lab1Arep.git
 ```
+2. Una vez clonamos, accedemos al directorio
+```
+cd Lab1Arep
+```
+3. Contruimos el proyecto
+```
+mvn package
+```
+---
+
+Ejecución
+
+### Primera Forma
+En la terminal de comando, utilizamos la sentencia:
+```
+mvn exec:java -"Dexec.mainClass"="edu.eci.arep.http.httpServer"  
+```
+
+### Segunda Forma
+1) En la barra de navegación de nuestro IDE, buscamos la opción "Ejecutar".
+   
+2) Luego, elegimos la opción "iniciar depuración " o "Ejecutar sin depuración"
