@@ -45,7 +45,7 @@ mvn exec:java -"Dexec.mainClass"="edu.eci.arep.http.httpServer"
 2) Luego, elegimos la opción "iniciar depuración " o "Ejecutar sin depuración"
 
 
-### CASOS DE USO
+## Casos de uso
 
 Una vez ejecutado, accedemos a la URL en un navegador
 
