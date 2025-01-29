@@ -7,7 +7,7 @@ Se construyo un servidor web que lee archivos HTML, JavaScript, CSS e Imágenes 
 
 Para probar el servidor, se realizo un formato de entrega de archivos, en el cual, el usuario, puede seleccionar que  tipo de archivo desea ver
 
-Adicional se incluyo el servicio REST que nospermite saber el clima de una ciudad en especifico, en este caso, Bogota
+Adicional se incluyo el servicio REST que nos permite saber el clima de una ciudad en especifico, en este caso, Bogota.
 
 ---
 ### Prerequisitos
