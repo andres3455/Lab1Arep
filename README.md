@@ -41,9 +41,7 @@ LAB1AREP/
 │               └── eci/
 │                   └── arep/
 │                       └── AppTest.java
-├── img/
 ├── pom.xml
-└── README.md
 ```
 
 ### Instalación
