@@ -1,2 +1,23 @@
-## Escuela Colombiana de Ingenieria
-## Andrés Felipe Rodríguez Chaparro
+# Escuela Colombiana de Ingenieria
+# Arquitecturas Empresariales
+
+## Taller 1 Diseño y estructuración de aplicaciones distribuidas en internet
+
+Se construyo un servidor web que lee archivos HTML, JavaScript, CSS e Imágenes (jpg) del disco local y retorna los archivos solicitados. 
+
+Para probar el servidor, se realizo un formato de entrega de archivos, en el cual, el usuario, puede seleccionar que  tipo de archivo desea ver
+
+Adicional se incluyo el servicio REST que nospermite saber el clima de una ciudad en especifico, en este caso, Bogota
+
+---
+### Prerequisitos
+
+* [Maven](https://maven.apache.org/): Es una herramienta de comprensión y gestión de proyectos de software. Basado en el concepto de modelo de objetos de proyecto (POM), Maven puede gestionar la construcción, los informes y la documentación de un proyecto desde una pieza de información central.
+* [Git](https://learn.microsoft.com/es-es/devops/develop/git/what-is-git): Es un sistema de control de versiones distribuido, lo que significa que un clon local del proyecto es un repositorio de control de versiones completo. Estos repositorios locales plenamente funcionales permiten trabajar sin conexión o de forma remota con facilidad.
+
+### Instalación
+
+1.Debemos clonar el repositorio
+```
+
+```
