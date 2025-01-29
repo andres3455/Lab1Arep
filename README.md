@@ -15,6 +15,37 @@ Adicional se incluyo el servicio REST que nos permite saber el clima de una ciud
 * [Maven](https://maven.apache.org/): Es una herramienta de comprensión y gestión de proyectos de software. Basado en el concepto de modelo de objetos de proyecto (POM), Maven puede gestionar la construcción, los informes y la documentación de un proyecto desde una pieza de información central.
 * [Git](https://learn.microsoft.com/es-es/devops/develop/git/what-is-git): Es un sistema de control de versiones distribuido, lo que significa que un clon local del proyecto es un repositorio de control de versiones completo. Estos repositorios locales plenamente funcionales permiten trabajar sin conexión o de forma remota con facilidad.
 
+### Arquitectura
+```
+LAB1AREP/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── edu/
+│   │   │       └── eci/
+│   │   │           └── arep/
+│   │   │               └── http/
+│   │   │                   ├── HttpServer.java
+│   │   │                   ├── RequestHandler.java
+│   │   │                   └── App.java
+│   │   └── public/
+│   │       ├── index.html
+│   │       ├── index2.html
+│   │       ├── script.js
+│   │       ├── styles.css
+│   │       ├── image.jpg
+│   │       └── imagenProcesada.jpg
+│   └── test/
+│       └── java/
+│           └── edu/
+│               └── eci/
+│                   └── arep/
+│                       └── AppTest.java
+├── img/
+├── pom.xml
+└── README.md
+```
+
 ### Instalación
 
 1) Debemos clonar el repositorio
