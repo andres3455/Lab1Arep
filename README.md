@@ -17,15 +17,15 @@ Adicional se incluyo el servicio REST que nospermite saber el clima de una ciuda
 
 ### Instalación
 
-1.Debemos clonar el repositorio
+1) Debemos clonar el repositorio
 ```
 https://github.com/andres3455/Lab1Arep.git
 ```
-2. Una vez clonamos, accedemos al directorio
+2) Una vez clonamos, accedemos al directorio
 ```
 cd Lab1Arep
 ```
-3. Contruimos el proyecto
+3) Contruimos el proyecto
 ```
 mvn package
 ```
@@ -43,3 +43,40 @@ mvn exec:java -"Dexec.mainClass"="edu.eci.arep.http.httpServer"
 1) En la barra de navegación de nuestro IDE, buscamos la opción "Ejecutar".
    
 2) Luego, elegimos la opción "iniciar depuración " o "Ejecutar sin depuración"
+
+
+### CASOS DE USO
+
+Una vez ejecutado, accedemos a la URL en un navegador
+
+```
+http://localhost:35000/
+```
+
+![Imagen1](img/1.png)
+
+Aqui podemos observar formato de entrega de archivos, ahora probemos el comportamiento con cada uno de los archivos.
+
+1) HTML
+![Imagen1](img/2.png)
+
+Este archivo incluye algo, basico, un archivo HTML con un saludo, y una especificación de su tipo
+
+2) JS
+![image](img/3.png).
+
+Este archivo de tipo JS, una función llamada fetchFile(fileName), que realiza una solicitud HTTP para obtener el contenido de un archivo desde el servidor y lo muestra en la página.
+
+3) CSS
+![image](img/4.png)
+
+El archivo CSS, contiene los estilos y propiedades, que utiliza el formato de inicio
+
+4) Imagen (jpg)
+![](/img/5.png)
+
+Imagen del edificio I
+
+5) API REST
+
+![Imagen](img/6.png)
