@@ -12,6 +12,9 @@ import java.io.InputStreamReader;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/*
+ Corre las pruebas, cuando el servidor este encendido para que funcionen   
+*/
 
 class AppTest {
     
